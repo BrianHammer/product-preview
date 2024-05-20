@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2,h3,h4,h5 {
+	@apply font-header text-very-dark-blue text-xl font-heavy
+}
+
+body {
+	@apply bg-cream font-paragraph text-dark-greyish-blue font-regular text-sm cursor-default
+}

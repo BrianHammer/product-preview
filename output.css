@@ -570,11 +570,6 @@ video {
   margin: 2rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .block {
   display: block;
 }
@@ -587,24 +582,16 @@ video {
   display: none;
 }
 
-.h-72 {
-  height: 18rem;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .max-w-\[375px\] {
@@ -761,54 +748,12 @@ body {
 }
 
 @media (min-width: 800px) {
-  .large\:m-0 {
-    margin: 0px;
-  }
-
-  .large\:my-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .large\:mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
-  .large\:mr-4 {
-    margin-right: 1rem;
-  }
-
-  .large\:mr-6 {
-    margin-right: 1.5rem;
-  }
-
   .large\:block {
     display: block;
   }
 
   .large\:hidden {
     display: none;
-  }
-
-  .large\:h-\[\] {
-    height: ;
-  }
-
-  .large\:h-\[500px\] {
-    height: 500px;
-  }
-
-  .large\:w-\[\] {
-    width: ;
-  }
-
-  .large\:w-\[600px\] {
-    width: 600px;
-  }
-
-  .large\:w-\[700px\] {
-    width: 700px;
   }
 
   .large\:w-1\/2 {
@@ -819,26 +764,6 @@ body {
     max-width: 700px;
   }
 
-  .large\:max-w-\[600px\] {
-    max-width: 600px;
-  }
-
-  .large\:max-w-\[800px\] {
-    max-width: 800px;
-  }
-
-  .large\:max-w-\[\] {
-    max-width: ;
-  }
-
-  .large\:max-w-5 {
-    max-width: 1.25rem;
-  }
-
-  .large\:max-w-52 {
-    max-width: 13rem;
-  }
-
   .large\:flex-row {
     flex-direction: row;
   }
@@ -847,20 +772,8 @@ body {
     align-items: center;
   }
 
-  .large\:justify-center {
-    justify-content: center;
-  }
-
   .large\:gap-8 {
     gap: 2rem;
-  }
-
-  .large\:gap-12 {
-    gap: 3rem;
-  }
-
-  .large\:gap-4 {
-    gap: 1rem;
   }
 
   .large\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -873,22 +786,5 @@ body {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-  }
-
-  .large\:p-4 {
-    padding: 1rem;
-  }
-
-  .large\:pr-4 {
-    padding-right: 1rem;
-  }
-
-  .large\:pr-8 {
-    padding-right: 2rem;
-  }
-
-  .large\:text-dark-cyan {
-    --tw-text-opacity: 1;
-    color: hsl(158 36% 37% / var(--tw-text-opacity));
   }
 }

@@ -747,6 +747,14 @@ body {
   color: hsl(228 12% 48% / var(--tw-text-opacity));
 }
 
+.hover\:bg-dark-cyan\/50:hover {
+  background-color: hsl(158 36% 37% / 0.5);
+}
+
+.hover\:bg-dark-cyan\/90:hover {
+  background-color: hsl(158 36% 37% / 0.9);
+}
+
 @media (min-width: 800px) {
   .large\:block {
     display: block;
